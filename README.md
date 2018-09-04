@@ -18,9 +18,14 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+
+Red, blue and purple.
+
+![](https://lh5.googleusercontent.com/QS92IlakxAEJdax2pe1ADKEEZkn0TDNPj26brwFzEXNfm3c1BpvSkSOW-Hhy8XRT1XUqqd9KDkf6u7e4XQHrDDAOjgdtdFDOvnsMxnvdJY8VNIKI_2qZHi8xp6236BYRzsZCCtBm9ioa)
  
 **b. What do you have to do to light your LED?**
 
+Connect the breadboard to the computer to power it up and make the whole circuit: resistance, button and LED.
 
 ## Part C. Blink a LED using Arduino
 
@@ -28,12 +33,29 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+Any, the function that came with the arduino blink function is set up to make blink the
+built-in led which is in PIN 13.
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
+Need to change the delay.
+
+```
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+
+A cable for ground.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
+I think it is between 10 and 15. 
 
 ### 2. Blink your LED
 
@@ -41,6 +63,7 @@ We've copied the questions from the lab here. Answer them below!
 
 [link to your video here; feel free to upload to youtube and just paste in a link here]
 
+[video](https://drive.google.com/file/d/14yd1j7-7b5T6h-tKj72oH3EBcFKSmuV8/view?usp=sharing)
 
 
 ## Part D. Manually fade an LED
@@ -52,8 +75,13 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+I need to move the LED to one of the pins and place the resistance next to it.
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
+
+
+[video](https://drive.google.com/file/d/1KCOaEw5ekHULvaQjFxLA2mKFEii51FsB/view?usp=sharing)
 
 ## Part F. FRANKENLIGHT!!!
 
