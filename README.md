@@ -12,6 +12,8 @@ We've copied the questions from the lab here. Answer them below!
 
 [insert a photo of your breadboard setup here]
 
+![board](https://lh3.googleusercontent.com/QBVr_YLWR0opvDlymsypT3Rq8IWrAtjozOfyw7ZOPUhkioMUJznSfiylTjazM6Pkc2_eqFIaiZMxNzJOqTPqTe4s-H74DnSaG8amYWu0tu633f2E011S8ASJp3hRU57pcBhUS7PoNDI)
+
 
 ## Part B. Manually Blink a LED
 
@@ -38,6 +40,7 @@ We've copied the questions from the lab here. Answer them below!
 **Make a video of your LED blinking, and add it to your lab submission.**
 
 [link to your video here; feel free to upload to youtube and just paste in a link here]
+
 
 
 ## Part D. Manually fade an LED
