@@ -21,11 +21,11 @@ We've copied the questions from the lab here. Answer them below!
 
 Red, blue and purple.
 
-![](https://lh5.googleusercontent.com/QS92IlakxAEJdax2pe1ADKEEZkn0TDNPj26brwFzEXNfm3c1BpvSkSOW-Hhy8XRT1XUqqd9KDkf6u7e4XQHrDDAOjgdtdFDOvnsMxnvdJY8VNIKI_2qZHi8xp6236BYRzsZCCtBm9ioa)
+![resistor](https://lh5.googleusercontent.com/QS92IlakxAEJdax2pe1ADKEEZkn0TDNPj26brwFzEXNfm3c1BpvSkSOW-Hhy8XRT1XUqqd9KDkf6u7e4XQHrDDAOjgdtdFDOvnsMxnvdJY8VNIKI_2qZHi8xp6236BYRzsZCCtBm9io)
  
 **b. What do you have to do to light your LED?**
 
-Connect the breadboard to the computer to power it up and make the whole circuit: resistance, button and LED.
+Connect the breadboard to the computer to power it up and make the whole circuit: resistor, button and LED.
 
 ## Part C. Blink a LED using Arduino
 
@@ -78,8 +78,6 @@ I think it is between 10 and 15.
 I need to move the LED to one of the pins and place the resistance next to it.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-
-
 
 [video](https://drive.google.com/file/d/1KCOaEw5ekHULvaQjFxLA2mKFEii51FsB/view?usp=sharing)
 
